@@ -1,0 +1,99 @@
+.main-content{
+    display: grid;
+    min-height: 1000px;
+    grid-template-columns: 300px 700px;
+}
+.left-section{
+    background-color: rgb(42, 40, 40);
+
+}
+.right-section{
+    width: 90%;
+
+}
+.left-content{
+    padding: 1ram;
+
+}
+.right.content{
+    width: 90%;
+    
+}
+.profile-image{
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px white solid;
+    border-radius: 30%;
+}
+.profiles-details{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem;
+    letter-spacing: 0.02px;
+    text-align: center;
+    text-transform: uppercase;
+    /* color: white; */
+
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: lightblue;
+}
+.discription{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+}
+.social-link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(253, 228, 228);
+    align-content: space-around;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    
+}
+.skills-section{
+
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+.skill-name{
+
+}
+.progress-bar{
+    border: 1px;
+
+}
+
+
+
+
+/* #resume{
+    display: grid;
+} */
