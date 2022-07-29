@@ -3,13 +3,17 @@
     min-height: 1000px;
     grid-template-columns: 300px 700px;
     max-width: 90%;
+    justify-content: center;
+    margin: 20px auto;
 }
 .left-section{
-    background-color: rgb(42, 40, 40);
+    background-color: rgb(57, 55, 54);
+    color: white;
 
 }
 .right-section{
-    width: 90%;
+    background: white;
+    /* width: 90%; */
 
 }
 .left-content{
@@ -28,12 +32,14 @@
     margin: 0 auto;
     border: 5px white solid;
     border-radius: 30%;
+    background-color: rgb(45, 42, 42);
 }
 .profiles-details{
     color: white;
     font-family: 'Montserrat', sans-serif;
 }
-.body{
+body{
+    background-color: #ebebeb;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -60,6 +66,9 @@
     padding: 1rem;
 }
 .icon{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
     color: white;
     text-decoration: none;
 }
@@ -76,6 +85,8 @@
     
 }
 .skills-section{
+    padding-left: 1rem;
+    padding-right: 1rem;
 
 }
 .skills{
@@ -88,9 +99,11 @@
     margin-bottom: 0.25rem;
 }
 .skill-name{
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     text-align: left;
     padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
 
 }
 .progress-bar{
@@ -127,14 +140,16 @@
     font-weight: 700;
     padding: 0.5rem;
     letter-spacing: 1px;
+    color: #000;
 }
 .right-details{
+    padding-left: 0.5rem;
     font-size: 0.8rem;
     letter-spacing: 0.2px;
     color: rgb(17, 16, 16);
-    padding: 0.7rem;
+    padding: 0.7rem; 
 }
-@media(max-width: 674px){
+@media screen and(max-width: 674px){
     .main-content{
         grid-template-columns: repeat(1,1fr);
     }
